@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Good Foods</title>
+</head>
+<body> 
+    <div class="container">
+        <div class = "header" id="navbar">
+            <a href ="#" class="logo">Good<spam>Foods</spam></a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <span class="menuIcon" onclick="menuToggle();"></spam>
+        </div>
+        <div class="content">
+                <div class="bannerText" id="slideShowText">
+                    <div class="active">
+                        <h2>coma bem<br>
+                            viva melhor</h2>
+                        <p>Você já parou para pensar que se você não se alimentar bem, mais cedo ou mais tarde desencadeará doenças? O alimento pode prevenir, ajudar a curar ou pode também desencadeá-las. É necessário conscientização quando o assunto é alimentação.
+                        </p>
+                    <a href="#">Saiba Mais</a>
+                    </div>
+                    <div>
+                        <h2>coma seus<br>
+                            vegetais</h2>
+                        <p>Os vegetais são uma excelente fonte de fibra, o que é bom para a digestão saudável. Eles também ajudam na redução de seu colesterol. E com certeza, vai lhe auxiliar na perda de peso.
+                        </p>
+                    <a href="#">Saiba Mais</a>
+                    </div>
+                    <div>
+                        <h2>boa comida<br>
+                           bom humor</h2>
+                        <p>O brócolis, o tomate e o espinafre são bons exemplos de como a alimentação pode estimular o bom humor. Isso porque esses alimentos são ricos em ácido fólico, ou vitamina B9, necessário para a formação de proteínas.
+                        </p>
+                    <a href="#">Saiba Mais</a>
+                    </div>
+                </div>
+        <div class="bannerImg" id="slideShow">
+            <img src="img/salad1.jpg" id="salad" class="active">
+            <img src="img/salad2.jpg" id="salad">
+            <img src="img/salad3.jpg" id="salad">
+        </div>
+    </div>
+    <div class="icons">
+        <ul class="sci">
+            <li><a href="#"><img src="img/facebook.png" id="social"></a></li>
+            <li><a href="#"><img src="img/twitter.png"  id="social"></a></li>
+            <li><a href="#"><img src="img/instagram.png"  id="social"></a></li>
+        </ul>
+        <ul class="controls">
+            <li><a><img src="img/left.png" onclick="prevSlide();prevSlideText()" id="buttom"></a></li>
+            <li><a><img src="img/right.png" onclick="nextSlide();nextSlideText()" id="buttom"></a></li>
+        </ul>
+    </div>
+    </div>
+<script src="nav.js"></script>
+</body>
+</html>
